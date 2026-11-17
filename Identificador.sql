@@ -14,7 +14,14 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- La exportación de datos fue deseleccionada.
+-- Volcando datos para la tabla bbdd unificación.tipo_registro: ~6 rows (aproximadamente)
+INSERT INTO `tipo_registro` (`id`, `registro`) VALUES
+	(1, 'ACER'),
+	(2, 'ROTURAS'),
+	(3, 'RMA'),
+	(4, 'PARCEL'),
+	(5, 'no_seb'),
+	(6, 'productos');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
